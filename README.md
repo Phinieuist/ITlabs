@@ -8,7 +8,7 @@
 2. Создание репозитория.
 3. Создание личной страницы.
 4. Размещение [кода](https://github.com/Phinieuist/Phinieuist.github.io) исходной страницы в репозитории.
-5. Размещение [странички](https://github.com/Phinieuist/Phinieuist.github.io) на хостинге.
+5. Размещение [странички](https://phinieuist.github.io/Lab1/index.html) на хостинге.
 
 ## Лабораторная 2
 
