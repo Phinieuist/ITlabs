@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>MNK Approx</title>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+    </script>
+    </head>
+    <body onload="ChangeTab(1)">
+        <header>
+            <div class="header_name">
+                Кучин П.Б.
+                <br>
+                ИДМ-22-02
+            </div>
+            <div class="header_title">Лабораторные работы по дисциплине "Интернет-технологии"</div>
+            <div></div>
+            <div></div>
+            <div class="header_title">Аппроксимация методом наименьших квадратов</div>
+            <div></div>
+        </header>
+        <div class="all">
+            <div class="container">
+                <div>
+                    <p>Метод наименьших квадратов (МНК) — математический метод, применяемый для решения различных задач, основанный на минимизации суммы квадратов отклонений некоторых функций от искомых переменных.</p>
+                    <p>Аппроксимацией (приближением) функции f(x) называется нахождение такой функции (аппроксимирующей функции) g(x), которая была бы близка заданной.</p>
+                    <p>Здесь можно задать координаты точек и получить линейную и квадратичную аппроксимацию.</p>
+                    <ol>
+                        <li>Для начала работы необходимо ввести количество пар точек, это должно быть положительное целое число.</li>
+                        <li>В появившейся таблице необходимо внести координаты точек, все поля таблицы должны быть заполнены. В качестве разделителя для ввода не целочисленных значений необходимо использовать точку.</li>
+                        <li>Нажать кнопку "Рассчитать".</li>
+                    </ol>
+                    <p>Повторять расчёт и вносить изменения в координаты точек можно неограниченное количество раз, однако если нужно изменить количество пар точек, то страницу необходимо перезагрузить.</p>
+                    <p>P.S. "Защита от дурака" здесь полностью отсутствует, поэтому ввод некорректных значений может привести к непредсказуемым последствиям.</p>
+                </div>
+                <div class="inpunt_line">
+                    <div>Введите количество пар точек</div>
+                    <div><input id="Input_n" type="number"></div>
+                    <div class="input_num_btn"><button onclick="createTable()">Ввести</button></div>
+                    <div></div>
+                </div>
+                <div  id="tableContainer"></div>
+                <div id="calculate_button"></div>
+                <p id="formula_lin" class="hidden"></p><br>
+                <p id="formula_kvadr" class="hidden"></p><br>
+                <label id="checkboxLabel1" class="hidden checkbox">
+                <input class="checkbox" type="checkbox" id="drawLine" checked="true" onclick="redrawChart()"> Показать график линейной аппроксимации</label><br>
+                <label id="checkboxLabel2" class="hidden checkbox">
+                <input class="checkbox" type="checkbox" id="drawKvadr" checked="true" onclick="redrawChart()"> Показать график квадратичной аппроксимации</label><br>
+                <div class="flex_container">
+                    <div id="curve_chart" class="canvas"></div>
+                </div>
+            </div>           
+        </div>
+        <footer>
+            <a href="https://github.com/Phinieuist/ITlabs" class="footer_a">[GitHub]</a>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
