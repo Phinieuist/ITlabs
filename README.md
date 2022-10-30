@@ -21,7 +21,9 @@
 Настройка локальной сети в Сisco Packet Tracer.
 
 Результат работы в формате [.docx](https://github.com/Phinieuist/ITlabs/raw/main/Lab3/Kuchin_IDM-22-02_IT_LR3.docx)
-Результат работы в формате [.pdf](https://github.com/Phinieuist/ITlabs/blob/main/Lab3/Kuchin_IDM-22-02_IT_LR3.pdf))
+
+Результат работы в формате [.pdf](https://github.com/Phinieuist/ITlabs/blob/main/Lab3/Kuchin_IDM-22-02_IT_LR3.pdf)
+
 Результат работы в формате [.pka](https://github.com/Phinieuist/ITlabs/raw/main/Lab3/IT_LR3.pka)
 
 ## Экзаменационный билет №18
