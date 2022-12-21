@@ -16,6 +16,8 @@
 
 Приложение представляет собой [страницу](https://phinieuist.github.io/ITlabs/Lab2/index.html), на которой можно получить графики линейной и квадратичной аппроксимации для заданных пользователем точек.
 
+Участие в конкурсе не принимаю.
+
 ## Лабораторная 3
 
 Настройка локальной сети в Сisco Packet Tracer.
@@ -29,4 +31,4 @@
 ## Экзаменационный билет №18
 Ответ на экзаменационный [билет 18](https://github.com/stankin/inet-2022/wiki/exam18)
 
-[Commit](https://github.com/stankin/inet-2022/wiki/exam18/_compare/1b6f2f5efccf88522801d49b858ae28912775762...97d91255090ba086d47cb917e8e11dc7b86166ae) для 18 билета
+[Commit](https://github.com/stankin/inet-2022/wiki/exam18/_compare/1b6f2f5efccf88522801d49b858ae28912775762...97d91255090ba086d47cb917e8e11dc7b86166ae) для 18 билета.
